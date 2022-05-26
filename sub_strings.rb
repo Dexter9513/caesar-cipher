@@ -3,7 +3,7 @@ dictionary = ["below", "down", "go", "going", "horn", "how", "howdy", "it", "i",
 def substrings(original_string, dictionary)
     counter = Hash.new(0)
     dictionary.each do |key|
-        string = original_string + ""
+        string = original_string.downcase + ""
         while string.include?(key)
             string.sub!(key, '')
             counter[key] += 1
