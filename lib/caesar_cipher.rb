@@ -28,9 +28,9 @@ def caesar_cipher(string, shift)
 end
 
 # puts caesar_cipher("What a string!", 5)
-puts('Enter string to encode with caesar-cipher:')
-string = gets
-puts('Enter the shift value:')
-shift = gets.chomp.to_i
-puts('Encoded string is:')
-p caesar_cipher(string, shift)
+# puts('Enter string to encode with caesar-cipher:')
+# string = gets
+# puts('Enter the shift value:')
+# shift = gets.chomp.to_i
+# puts('Encoded string is:')
+# p caesar_cipher(string, shift)
